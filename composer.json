@@ -1,0 +1,24 @@
+{
+    "name": "olrudenk/recman",
+    "description": "test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksii Rudenko",
+            "email": "oleksiirudenkomail@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Recman\\": "src/"
+        },
+        "files": [
+            "helpers/functions.php",
+            "routes/routes.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    }
+}
